@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDB Resale Price Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 500px;
+        }
+        h2 {
+            text-align: center;
+            font-size: 24px;
+        }
+        label {
+            margin-top: 10px;
+            display: block;
+            font-size: 16px;
+        }
+        input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>HDB Resale Price Prediction</h2>
+        <form action="/predict" method="post">
+            <label for="block">Block:</label>
+            <input type="text" id="block" name="block" value="{{ request.form['block'] if request.form.get('block') else '' }}">
+
+            <label for="street_name">Street Name:</label>
+            <input type="text" id="street_name" name="street_name" value="{{ request.form['street_name'] if request.form.get('street_name') else '' }}">
+
+            <label for="town">Town:</label>
+            <input type="text" id="town" name="town" value="{{ request.form['town'] if request.form.get('town') else '' }}">
+
+            <label for="postal_code">Postal Code:</label>
+            <input type="text" id="postal_code" name="postal_code" value="{{ request.form['postal_code'] if request.form.get('postal_code') else '' }}">
+
+            <label for="transaction_month">Transaction Month:</label>
+            <input type="text" id="transaction_month" name="transaction_month" placeholder="YYYY-MM" value="{{ request.form['transaction_month'] if request.form.get('transaction_month') else '' }}">
+
+            <label for="flat_type">Flat Type:</label>
+            <input type="text" id="flat_type" name="flat_type" value="{{ request.form['flat_type'] if request.form.get('flat_type') else '' }}">
+
+            <label for="storey_range">Storey Range:</label>
+            <input type="text" id="storey_range" name="storey_range" value="{{ request.form['storey_range'] if request.form.get('storey_range') else '' }}">
+
+            <label for="floor_area_sqm">Floor Area (sqm):</label>
+            <input type="number" id="floor_area_sqm" name="floor_area_sqm" value="{{ request.form['floor_area_sqm'] if request.form.get('floor_area_sqm') else '' }}">
+
+            <label for="flat_model">Flat Model:</label>
+            <input type="text" id="flat_model" name="flat_model" value="{{ request.form['flat_model'] if request.form.get('flat_model') else '' }}">
+
+            <label for="lease_start_year">Lease Start Year:</label>
+            <input type="number" id="lease_start_year" name="lease_start_year" value="{{ request.form['lease_start_year'] if request.form.get('lease_start_year') else '' }}">
+
+            <label for="latitude">Latitude:</label>
+            <input type="number" step="any" id="latitude" name="latitude" value="{{ request.form['latitude'] if request.form.get('latitude') else '' }}">
+
+            <label for="longitude">Longitude:</label>
+            <input type="number" step="any" id="longitude" name="longitude" value="{{ request.form['longitude'] if request.form.get('longitude') else '' }}">
+
+            <label for="distance_to_cbd">Distance to CBD (meters):</label>
+            <input type="number" id="distance_to_cbd" name="distance_to_cbd" value="{{ request.form['distance_to_cbd'] if request.form.get('distance_to_cbd') else '' }}">
+
+            <label for="distance_to_mrt">Distance to MRT (meters):</label>
+            <input type="number" id="distance_to_mrt" name="distance_to_mrt" value="{{ request.form['distance_to_mrt'] if request.form.get('distance_to_mrt') else '' }}">
+
+            <input type="submit" value="Predict">
+        </form>
+        
+        {% if prediction_text %}
+            <div class="result">
+                <h3>{{ prediction_text }}</h3>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
