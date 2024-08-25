@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/a2d05eca3546425cbd4a83149cebbb12/artifacts
+end_time: 1724421627590
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: a2d05eca3546425cbd4a83149cebbb12
+run_name: Linear Discriminant Analysis
+run_uuid: a2d05eca3546425cbd4a83149cebbb12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724421627039
+status: 3
+tags: []
+user_id: Miche

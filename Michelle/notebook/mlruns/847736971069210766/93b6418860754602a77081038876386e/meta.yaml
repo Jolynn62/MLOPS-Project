@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/93b6418860754602a77081038876386e/artifacts
+end_time: 1724510648691
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 93b6418860754602a77081038876386e
+run_name: Decision Tree Classifier
+run_uuid: 93b6418860754602a77081038876386e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724510648285
+status: 3
+tags: []
+user_id: Miche
