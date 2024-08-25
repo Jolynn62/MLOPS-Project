@@ -7,7 +7,7 @@ This project showcases three machine learning models:
 3. **Anomaly Detection in Transactions:** Identify anomalous transactions in expense records to detect potential fraud or errors.
 
 ## Model 1: Mushroom Edibility Classification
-### **Web Application Link: https://mlops-project-8dpn.onrender.com**
+### **Deployed Web Application Link: https://mlops-project-8dpn.onrender.com**
 
 ### Description
 
@@ -31,7 +31,7 @@ Michelle
 - requirements.txt
 
 ## Model 2: Residential Price Regression
-### **Web Application Link: https://mlops-project-kyw7.onrender.com/**
+### **Deployed Web Application Link: https://mlops-project-kyw7.onrender.com/**
 
 ### Description
 
@@ -51,7 +51,7 @@ Kynan
 - requirements.txt
 
 ## Model 3: Anomaly Detection in Transactions
-### **Web Application Link: https://mlops-project-8dpn.onrender.com**
+### **Deployed Web Application Link: https://mlops-project-8dpn.onrender.com**
 
 ### Description
 
