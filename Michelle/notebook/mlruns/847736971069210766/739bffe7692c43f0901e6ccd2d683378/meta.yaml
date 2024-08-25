@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/739bffe7692c43f0901e6ccd2d683378/artifacts
+end_time: 1724515590438
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 739bffe7692c43f0901e6ccd2d683378
+run_name: Random Forest Classifier
+run_uuid: 739bffe7692c43f0901e6ccd2d683378
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724515588972
+status: 3
+tags: []
+user_id: Miche

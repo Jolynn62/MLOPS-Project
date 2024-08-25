@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/1695a0eb620e44099f6df62b00e173fc/artifacts
+end_time: 1724510651425
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 1695a0eb620e44099f6df62b00e173fc
+run_name: K Neighbors Classifier
+run_uuid: 1695a0eb620e44099f6df62b00e173fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724510651061
+status: 3
+tags: []
+user_id: Miche

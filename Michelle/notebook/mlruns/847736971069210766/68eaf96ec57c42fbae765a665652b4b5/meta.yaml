@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/68eaf96ec57c42fbae765a665652b4b5/artifacts
+end_time: 1724517783753
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 68eaf96ec57c42fbae765a665652b4b5
+run_name: Logistic Regression
+run_uuid: 68eaf96ec57c42fbae765a665652b4b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724517783392
+status: 3
+tags: []
+user_id: Miche

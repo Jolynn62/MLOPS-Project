@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/5d474a562bf5442385741beedea6e481/artifacts
+end_time: 1724509087203
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 5d474a562bf5442385741beedea6e481
+run_name: Quadratic Discriminant Analysis
+run_uuid: 5d474a562bf5442385741beedea6e481
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724509086815
+status: 3
+tags: []
+user_id: Miche

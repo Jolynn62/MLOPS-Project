@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/8d795c5b8ea346b0838033f596ec0dc4/artifacts
+end_time: 1724515044277
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 8d795c5b8ea346b0838033f596ec0dc4
+run_name: CatBoost Classifier
+run_uuid: 8d795c5b8ea346b0838033f596ec0dc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724515043714
+status: 3
+tags: []
+user_id: Miche

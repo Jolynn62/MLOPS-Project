@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/15772d8e361747d4a0f66db5652b3d08/artifacts
+end_time: 1724517778324
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 15772d8e361747d4a0f66db5652b3d08
+run_name: Extra Trees Classifier
+run_uuid: 15772d8e361747d4a0f66db5652b3d08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724517777905
+status: 3
+tags: []
+user_id: Miche

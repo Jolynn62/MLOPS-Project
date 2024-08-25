@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Edibility Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Mushroom Edibility Prediction</h1>
+    <form action="/predict" method="post" class="login">
+        <label for="cap-shape">Cap Shape:</label>
+        <select id="cap-shape" name="cap-shape" required>
+            <option value="">Select Cap Shape</option>
+            <option value="bell">Bell</option>
+            <option value="conical">Conical</option>
+            <option value="convex">Convex</option>
+            <option value="flat">Flat</option>
+            <option value="knobbed">Knobbed</option>
+            <option value="sunken">Sunken</option>
+        </select><br>
+        
+        <label for="cap-color">Cap Color:</label>
+        <select id="cap-color" name="cap-color" required>
+            <option value="">Select Cap Color</option>
+            <option value="brown">Brown</option>
+            <option value="buff">Buff</option>
+            <option value="cinnamon">Cinnamon</option>
+            <option value="gray">Gray</option>
+            <option value="green">Green</option>
+            <option value="pink">Pink</option>
+            <option value="purple">Purple</option>
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+        </select><br>
+        
+        <label for="odor">Odor:</label>
+        <select id="odor" name="odor" required>
+            <option value="">Select Odor</option>
+            <option value="almond">Almond</option>
+            <option value="anise">Anise</option>
+            <option value="creosote">Creosote</option>
+            <option value="fishy">Fishy</option>
+            <option value="foul">Foul</option>
+            <option value="musty">Musty</option>
+            <option value="none">None</option>
+            <option value="pungent">Pungent</option>
+            <option value="spicy">Spicy</option>
+        </select><br>
+        
+        <label for="habitat">Habitat:</label>
+        <select id="habitat" name="habitat" required>
+            <option value="">Select Habitat</option>
+            <option value="grasses">Grasses</option>
+            <option value="leaves">Leaves</option>
+            <option value="meadows">Meadows</option>
+            <option value="path">Path</option>
+            <option value="urban">Urban</option>
+            <option value="woods">Woods</option>
+        </select><br>
+        
+        <input type="submit" value="Predict" class="btn btn-white">
+    </form>
+
+</body>
+</html>

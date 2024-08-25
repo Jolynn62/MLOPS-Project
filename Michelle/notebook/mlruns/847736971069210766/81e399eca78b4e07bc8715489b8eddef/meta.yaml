@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/81e399eca78b4e07bc8715489b8eddef/artifacts
+end_time: 1724442498457
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 81e399eca78b4e07bc8715489b8eddef
+run_name: Light Gradient Boosting Machine
+run_uuid: 81e399eca78b4e07bc8715489b8eddef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724442498009
+status: 3
+tags: []
+user_id: Miche

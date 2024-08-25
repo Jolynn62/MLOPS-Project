@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/03b7b8d971504f158e830dff9fa4c11e/artifacts
+end_time: 1724513075837
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 03b7b8d971504f158e830dff9fa4c11e
+run_name: Ada Boost Classifier
+run_uuid: 03b7b8d971504f158e830dff9fa4c11e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724513075468
+status: 3
+tags: []
+user_id: Miche

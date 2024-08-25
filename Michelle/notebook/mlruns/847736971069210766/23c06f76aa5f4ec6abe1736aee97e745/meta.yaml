@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/23c06f76aa5f4ec6abe1736aee97e745/artifacts
+end_time: 1724442496377
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 23c06f76aa5f4ec6abe1736aee97e745
+run_name: Extreme Gradient Boosting
+run_uuid: 23c06f76aa5f4ec6abe1736aee97e745
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724442495862
+status: 3
+tags: []
+user_id: Miche

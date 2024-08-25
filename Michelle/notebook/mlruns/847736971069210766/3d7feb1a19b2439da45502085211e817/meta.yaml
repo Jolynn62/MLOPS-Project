@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/3d7feb1a19b2439da45502085211e817/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 3d7feb1a19b2439da45502085211e817
+run_name: Session Initialized 3c08
+run_uuid: 3d7feb1a19b2439da45502085211e817
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724421512235
+status: 1
+tags: []
+user_id: Miche

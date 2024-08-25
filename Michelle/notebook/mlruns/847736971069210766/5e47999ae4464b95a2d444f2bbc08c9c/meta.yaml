@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/5e47999ae4464b95a2d444f2bbc08c9c/artifacts
+end_time: 1724510657351
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 5e47999ae4464b95a2d444f2bbc08c9c
+run_name: Dummy Classifier
+run_uuid: 5e47999ae4464b95a2d444f2bbc08c9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724510656970
+status: 3
+tags: []
+user_id: Miche

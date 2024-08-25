@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Miche/MLOPS/Assignment/mlruns/847736971069210766/00a8776cf56c4960b44f89a0c1f4fca5/artifacts
+end_time: 1724510655183
+entry_point_name: ''
+experiment_id: '847736971069210766'
+lifecycle_stage: active
+run_id: 00a8776cf56c4960b44f89a0c1f4fca5
+run_name: Ridge Classifier
+run_uuid: 00a8776cf56c4960b44f89a0c1f4fca5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724510654739
+status: 3
+tags: []
+user_id: Miche
